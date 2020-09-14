@@ -77,3 +77,10 @@ body {
   bottom: 5%;
   transform: translate(-50%, -5%);
 }
+
+@media screen and (max-width: 540px) {
+  .modal p {
+    bottom: 3%;
+    font-size: 1.4rem;
+  }
+}
