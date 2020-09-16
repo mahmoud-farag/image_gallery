@@ -25,6 +25,7 @@ body {
   object-fit: cover;
   transition: all 0.3s ease-out;
   cursor: pointer;
+  background-size: cover;
 }
 
 .img-container img:hover {
@@ -54,6 +55,7 @@ body {
   position: absolute;
   left: 50%;
   top: 20%;
+  background-size: 100%;
 }
 .modal .full_img {
   width: 100%;
